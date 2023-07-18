@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 58%;
+    left: 65%;
+}
+
+.container h1{
+    font-family: Teko ;
+    display: inline-block;
+    font-size: 65px;
+    color: white;
+    margin-bottom: -15px;
+    padding: 13px ;
+}
+
+.box{
+    width: 100;
+    margin: 15px;
+}    
+
+.box input{
+    background: none;
+    width: 75%;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+
+}
+
+.box i{
+    width: 25px;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.btn{
+    color: white;
+    font-size: 23px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    margin: -5px 0;
+    padding: 10px 21px;
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: black;
+}
